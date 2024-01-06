@@ -26,7 +26,9 @@ secret_key = var.AWS_SECRET_KEY
 
 region = "us-east-2"
 
-} resource "aws_instance" "myec2" {
+} 
+
+resource "aws_instance" "myec2" {
 
   ami           = "ami-05fb0b8c1424f266b"
 
